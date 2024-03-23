@@ -1,0 +1,27 @@
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 0 20px;
+    font-family: Arial, sans-serif;
+}
+
+input[type="text"] {
+    width: calc(100% - 70px);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.completed {
+    text-decoration: line-through;
+}
